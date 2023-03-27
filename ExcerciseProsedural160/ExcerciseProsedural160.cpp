@@ -20,9 +20,9 @@ void ucapan() {
 int main() {
     double nilaiB[20], nilaiM[20];
     string nama[20], kondisi[20];
-
     // string nama;
     // double nilM, nilB;
+
     ucapan();
     for (int i = 0; i < 20; i++) {
         cout << "Masukkan Nama Pendaftar ke - " << (i + 1) << endl ;
