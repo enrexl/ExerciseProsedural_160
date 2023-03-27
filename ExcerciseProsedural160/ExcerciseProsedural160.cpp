@@ -13,7 +13,7 @@ string status(double r, double m) {
 }
 
 void ucapan() {
-    cout << "Exercise Prosedural" << endl;
+    cout << "===Exercise Prosedural===" << endl;
 }
 
 
@@ -25,7 +25,7 @@ int main() {
     // double nilM, nilB;
 
     ucapan();
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i <= 20; i++) {
         cout << "Masukkan Nama Pendaftar ke - " << (i + 1) << endl ;
         cin >> nama[i];
         cout << "Masukkan Nilai Bahasa Inggris = ";
@@ -38,7 +38,7 @@ int main() {
     }
 
     cout << "\n\n===Nama==="<< "=====Status====" << endl;
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i <= 20; i++) {
         cout << " " << nama[i] << "     " << kondisi[i] << endl;
         
     }
