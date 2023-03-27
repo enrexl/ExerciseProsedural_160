@@ -20,6 +20,7 @@ void ucapan() {
 int main() {
     double nilaiB[20], nilaiM[20];
     string nama[20], kondisi[20];
+    int jl = 0, jtl = 0;
     // string nama;
     // double nilM, nilB;
 
@@ -33,11 +34,13 @@ int main() {
         cin >> nilaiM[i];
         kondisi[i] = status(rerata(nilaiB[i], nilaiM[i]), nilaiM[i]);
         cout << "\n\n";
+        
     }
 
-    cout << "\n\n==Nama===" << "===" << "=Status====" << endl;
+    cout << "\n\n===Nama==="<< "=====Status====" << endl;
     for (int i = 0; i < 20; i++) {
         cout << " " << nama[i] << "     " << kondisi[i] << endl;
+        
     }
 }
 
